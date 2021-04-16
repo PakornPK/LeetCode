@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"	
+	"fmt"
 	"sort"
 )
-
 
 func maximumWealth(accounts [][]int) int {
 	richest := make([]int, len(accounts))
