@@ -28,7 +28,7 @@ func twoSum(numbers []int, target int) []int {
 
 func main() {
 	case1 := Testcase{
-	numbers: []int{2, 7, 11, 15},
+		numbers: []int{2, 7, 11, 15},
 		target:  9,
 	}
 	case2 := Testcase{
